@@ -11,7 +11,7 @@ The primary development goal of this project is to keep the build/download size 
 * Save scene as an image based on the size of your browser window (hit F11 then the save button to take a fullscreen capture)
 * Paints 10 random stars on click+drag, zooms in and out on mouse wheel, pans on middle mouse
 * Unlimited undo/redo of paint operations
-* See <a href="https://raw.githubusercontent.com/kschluter/stars/master/">roadmap</a> for details on future development and note regarding rendering performance
+* See <a href="https://github.com/kschluter/stars/blob/master/ROADMAP.md">roadmap</a> for details on future development and note regarding rendering performance
 
 # Usage
 
