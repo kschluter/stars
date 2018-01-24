@@ -1,6 +1,6 @@
 # Stars
 
-> An app for painting and exporting star scenes. View <a href="https://github.io/kschluter/stars">demo</a> here.
+> An app for painting and exporting star scenes. View <a href="https://kschluter.github.io/stars/">demo</a> here.
 
 <img src="https://raw.githubusercontent.com/kschluter/stars/master/src/screenshot/screenshot.png" style="width:100%;">
 
