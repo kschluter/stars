@@ -1,0 +1,102 @@
+@import './assets/css/variables.scss';
+@import './assets/css/menus.scss';
+@import './assets/css/buttons.scss';
+@import './assets/css/icons.scss';
+@import './assets/css/jelly.scss';
+@import './assets/css/swooshLeft.scss';
+@import './assets/css/swooshRight.scss';
+@import './assets/css/swooshUp.scss';
+@import './assets/css/swooshDown.scss';
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  color: #909399;
+  background: #000;
+  font-family: 'Arial';
+  font-size: 12px;
+  min-width: 170px;
+}
+
+a {
+  text-decoration: none;
+  color: #409eff;
+}
+
+ul,
+li {
+  padding: 0px;
+  margin: 0px 0px 0px 8px;
+}
+
+canvas-area {
+  background-color: #000;
+  display: block;
+  overflow: hidden;
+}
+
+#c {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ui {
+  position: relative;
+}
+
+#subMenubrush {
+  position: relative;
+}
+
+.message {
+  background-color: $dark;
+  border-radius: $menuRadius;
+  border: 1px solid $darkHover;
+  display: none;
+}
+
+.messageBody {
+  background-color: #f4f4f5;
+  color: #909399;
+  margin: 52px 8px 8px 8px;
+  padding: 8px;
+  max-width: 300px;
+  border-radius: $menuRadius;
+}
+
+.allBrushes {
+  background-color: $dark;
+  border-radius: $menuRadius;
+  border: 1px solid $darkHover;
+  display: none;
+}
+
+.allBrushes canvas {
+  background-color: #000000;
+  border-radius: $menuRadius $menuRadius 0px 0px;
+  width: 65px;
+  height: 65px;
+}
+
+.allBrushes ul {
+  text-decoration: circle;
+  overflow: hidden;
+  padding: 8px;
+  margin: 0px;
+}
+
+.allBrushes li {
+  padding: 0px;
+  margin: 0px;
+}
+
+#subMenuhelp {
+  background-image: url('./assets/images/266-question.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 32px;
+}

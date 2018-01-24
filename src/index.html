@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stars</title>
+</head>
+
+<body>
+
+    <!-- Top Left Menu -->
+    <div id="menuTopLeft" class="menu menuTop menuLeft menuTopLeft swooshLeft">
+        <button class="btn btnCorner" id="save" title="Save">
+            <div class="icon iconSave"></div>
+        </button>
+        <!--
+        <button class="btn subMenu btnCorner" id="brush">
+            <div class="icon iconBrush"></div>
+        </button>
+        
+        <button class="btn btnCorner" id="console">
+            <div class="icon iconView"></div>
+        </button>
+        -->
+        <!-- Brush Submenu -->
+        <div id="subMenubrush" class="allBrushes swooshLeft">
+            <button class="btn btnMessageAction">
+                <div class="icon iconClose"></div>
+            </button>
+            <div class="brushBody" id="brushes">
+            </div>
+        </div>
+    </div>
+    <!-- Top Center Menu -->
+    <div id="menuTopCenter" class="menu menuTop menuTopCenter swooshDown">
+        <button class="btn" id="undo" title="Undo">
+            <div class="icon iconUndo"></div>
+        </button>
+        <button class="btn" id="redo" title="Redo">
+            <div class="icon iconRedo"></div>
+        </button>
+    </div>
+    <!-- Top Right Menu -->
+    <div id="menuTopRight" class="menu menuTop menuRight menuTopRight swooshRight">
+        <button class="btn btnCorner" id="clear" title="Start over">
+            <div class="icon iconClearUndo"></div>
+        </button>
+    </div>
+    <!-- Center Menu -->
+    <div id="menuCenter" class="menu menuCenter">
+        <!-- Help submenu -->
+        <div id="subMenuhelp" class="message jelly">
+            <button class="btn btnMessageAction" id="notifyHelp">
+                <div class="icon iconClose"></div>
+            </button>
+            <div class="messageBody">
+                <ul>
+                    <li>Click and drag the mouse to paint stars</li>
+                    <li>Click and hold the middle mouse to pan</li>
+                    <li>Zoom in and out with the mousewheel</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Left Menu -->
+    <div id="menuBottomLeft" class="menu menuBottom menuLeft menuBottomLeft swooshLeft">
+        <button class="btn subMenu" id="help" title="Help">
+            <div class="icon iconHelp"></div>
+        </button>
+    </div>
+    <!-- Bottom Center Menu -->
+    <div id="menuBottomCenter" class="menu menuBottom menuBottomCenter swooshUp">
+        <span id="scale">1</span>
+    </div>
+    <!-- Bottom Right Menu -->
+    <div id="menuBottomRight" class="menu menuBottom menuRight menuBottomRight swooshRight">
+        <button class="btn" id="github" title="Visit project homepage">
+            <div class="icon iconGithub"></div>
+        </button>
+    </div>
+    <canvas-area id="ca" resizable="both">
+        <canvas id="c"></canvas>
+    </canvas-area>
+</body>
+<script src="index.js" /></script>
+
+</html>

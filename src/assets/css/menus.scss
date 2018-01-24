@@ -1,0 +1,54 @@
+.menu {
+  position: absolute;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.menuTop {
+  margin-top: $menuMargin;
+}
+
+.menuBottom {
+  margin-bottom: $menuMargin;
+}
+
+.menuLeft {
+  margin-left: $menuMargin;
+}
+
+.menuRight {
+  margin-right: $menuMargin;
+}
+
+.menuTopLeft {
+  top: 0px;
+  left: 0px;
+}
+
+.menuTopRight {
+  top: 0px;
+  right: 0px;
+}
+
+.menuTopCenter {
+  top: 0px;
+}
+
+.menuBottomLeft {
+  bottom: 0px;
+  left: 0px;
+}
+
+.menuBottomCenter {
+  bottom: 0px;
+  opacity: 0.3;
+}
+
+.menuBottomRight {
+  bottom: 0px;
+  right: 0px;
+}

@@ -1,0 +1,53 @@
+.icon {
+  height: 16px;
+  width: 16px;
+  outline: 0;
+}
+.icon:focus {
+  outline: 0;
+}
+::-moz-focus-inner {
+  border: 0;
+}
+
+.iconClearUndo {
+  background-image: url('./assets/images/174-bin2.svg');
+}
+
+.iconUndo {
+  background-image: url('./assets/images/102-undo.svg');
+}
+
+.iconRedo {
+  background-image: url('./assets/images/103-redo.svg');
+}
+
+.iconBrush {
+  background-image: url('./assets/images/218-star-full.svg');
+}
+
+.iconConsole {
+  background-image: url('./assets/images/207-eye.svg');
+}
+
+.iconSave {
+  background-image: url('./assets/images/099-floppy-disk.svg');
+}
+
+.iconView {
+  background-image: url('./assets/images/207-eye.svg');
+}
+
+.iconGithub {
+  background-image: url('./assets/images/433-github.svg');
+}
+
+.iconHelp {
+  background-image: url('./assets/images/266-question.svg');
+}
+
+.iconClose {
+  background-image: url('./assets/images/272-cross.svg');
+  width: 8px;
+  height: 8px;
+}
