@@ -11,14 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/kschluter/stars.git"
   },
-  "keywords": ["canvas", "stars", "js"],
+  "keywords": [
+    "canvas",
+    "stars",
+    "js"
+  ],
   "author": "Kory Schluter",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kschluter/stars/issues"
   },
   "dependencies": {
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.5.0"
+    "node-sass": "^4.10.0",
+    "parcel-bundler": "^1.10.3"
   }
 }
